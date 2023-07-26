@@ -35,7 +35,7 @@ fastify.register(cors,{
 })
 
 const start = async () =>{
-    const port = process.env.PORT || 3333
+    const port = process.env.PORT || 10000
     try{
         await fastify.listen({port: port})
     } catch(err){
